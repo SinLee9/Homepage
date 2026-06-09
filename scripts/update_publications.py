@@ -35,6 +35,7 @@ ORCID_ID = "0000-0002-7947-9004"
 DBLP_AUTHOR_NAME = "Zhen Li 0076"
 DBLP_PERSON_XML = "https://dblp.org/pid/74/2397-76.xml"
 SCHOLAR_PROFILE_URL = "https://scholar.google.com/citations?user=4eH9QNMAAAAJ&hl=zh-CN&oi=ao"
+SCHOLAR_PROFILE_QUERY_URL = "https://scholar.google.com/citations?user=4eH9QNMAAAAJ&hl=en&cstart=0&pagesize=100"
 USER_AGENT = "SinLee9 academic homepage publication updater (mailto:lz-math@my.swjtu.edu.cn)"
 OPENALEX_MAILTO = "lz-math@my.swjtu.edu.cn"
 
@@ -86,6 +87,18 @@ def scholar_url(title: str) -> str:
     return "https://scholar.google.com/scholar?q=" + urllib.parse.quote_plus(title)
 
 
+def shift_months(value: datetime, delta_months: int) -> datetime:
+    year = value.year
+    month = value.month + delta_months
+    while month <= 0:
+        month += 12
+        year -= 1
+    while month > 12:
+        month -= 12
+        year += 1
+    return value.replace(year=year, month=month)
+
+
 def strip_html(value: str) -> str:
     return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", value))).strip()
 
@@ -123,6 +136,51 @@ def classify(entry_type: str = "", venue: str = "", source: str = "") -> str:
     if source == "manual":
         return "manuscript"
     return "other"
+
+
+def venue_group(publication_type: str) -> str:
+    if publication_type == "conference":
+        return "Conference Papers"
+    if publication_type == "preprint":
+        return "Preprints"
+    return "Journal Articles"
+
+
+def infer_arxiv_year_month(*values: str) -> tuple[int | None, int | None]:
+    for value in values:
+        match = re.search(r"(?:arxiv[:./\s-]|abs/)(\d{2})(\d{2})\.\d{4,5}", value or "", flags=re.I)
+        if not match:
+            continue
+        year = 2000 + int(match.group(1))
+        month = int(match.group(2))
+        if 1 <= month <= 12:
+            return year, month
+    return None, None
+
+
+def is_recent_preprint(record: dict[str, Any], now: datetime) -> bool:
+    if record.get("type") != "preprint":
+        return True
+
+    cutoff = shift_months(now, -18)
+    year = record.get("publicationYear") or record.get("year")
+    month = record.get("publicationMonth")
+    if not year:
+        return False
+
+    inferred_year, inferred_month = infer_arxiv_year_month(
+        record.get("doi", ""),
+        record.get("venue", ""),
+        " ".join((link.get("url") or "") for link in record.get("links", [])),
+    )
+    year = inferred_year or year
+    month = inferred_month or month or 1
+
+    try:
+        published = datetime(int(year), int(month), 1, tzinfo=now.tzinfo)
+    except ValueError:
+        return False
+    return published >= cutoff.replace(day=1)
 
 
 def crossref_record(doi: str) -> dict[str, Any]:
@@ -249,6 +307,7 @@ def parse_orcid() -> list[dict[str, Any]]:
             "authors": enriched.get("authors") or [],
             "year": enriched.get("year") or year or datetime.now().year,
             "venue": enriched.get("venue") or venue or "ORCID record",
+            "venueGroup": venue_group(enriched.get("type") or classify(summary.get("type", ""), venue)),
             "status": "Published" if doi else "Indexed by ORCID",
             "type": enriched.get("type") or classify(summary.get("type", ""), venue),
             "selected": False,
@@ -260,7 +319,7 @@ def parse_orcid() -> list[dict[str, Any]]:
             "sources": ["ORCID"],
         }
         if doi:
-            record["links"].append({"label": "Journal / DOI", "url": enriched.get("primaryUrl") or f"https://doi.org/{doi}"})
+            record["links"].append({"label": "DOI", "url": enriched.get("primaryUrl") or f"https://doi.org/{doi}"})
         record["links"].append({"label": "ORCID", "url": f"https://orcid.org/{ORCID_ID}"})
         records.append(record)
     return records
@@ -300,7 +359,7 @@ def parse_dblp() -> list[dict[str, Any]]:
                 continue
             if "doi.org/" in url:
                 doi = normalize_doi(url)
-                label = "Journal / DOI" if "arxiv" not in url.lower() else "arXiv"
+                label = "DOI"
             else:
                 label = "External"
             links.append({"label": label, "url": url})
@@ -311,7 +370,10 @@ def parse_dblp() -> list[dict[str, Any]]:
             "title": title,
             "authors": [author.replace(" 0076", "") for author in authors],
             "year": year,
+            "publicationYear": year,
+            "publicationMonth": node.findtext("month"),
             "venue": venue,
+            "venueGroup": venue_group(classify(node.tag, venue)),
             "status": "Indexed by DBLP",
             "type": classify(node.tag, venue),
             "selected": False,
@@ -326,7 +388,7 @@ def parse_dblp() -> list[dict[str, Any]]:
 
 
 def parse_scholar_profile() -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    text = fetch_text(SCHOLAR_PROFILE_URL, accept="text/html")
+    text = fetch_text(SCHOLAR_PROFILE_QUERY_URL, accept="text/html")
     if not text:
         return [], {}
 
@@ -377,15 +439,14 @@ def parse_scholar_profile() -> tuple[list[dict[str, Any]], dict[str, Any]]:
 
         link_url = urllib.parse.urljoin("https://scholar.google.com", unescape(href))
         record_type = classify("", venue, "scholar")
-        if record_type == "preprint":
-            continue
         records.append({
             "id": slugify(title),
             "title": title,
             "authors": authors,
             "year": year,
+            "publicationYear": year,
             "venue": venue,
-            "venueGroup": "Conference Papers" if record_type == "conference" else ("Preprints" if record_type == "preprint" else "Journal Articles"),
+            "venueGroup": venue_group(record_type),
             "status": "Indexed by Google Scholar",
             "type": record_type,
             "selected": False,
@@ -432,7 +493,7 @@ def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
             if marker not in existing_links:
                 existing.setdefault("links", []).append(link)
                 existing_links.add(marker)
-        for field in ["authors", "venue", "status", "type", "year", "doi"]:
+        for field in ["authors", "venue", "venueGroup", "status", "type", "year", "publicationYear", "publicationMonth", "doi"]:
             if not existing.get(field) and record.get(field):
                 existing[field] = record[field]
 
@@ -464,10 +525,11 @@ def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
         item.setdefault("abstractZh", "")
         item.setdefault("selected", False)
         item.setdefault("citationCount", None)
+        item.setdefault("venueGroup", venue_group(item.get("type", "")))
         item["doi"] = normalize_doi(item.get("doi"))
         # Use the title as the main clickable route through the first official link.
-        if item["doi"] and not any(link.get("label") == "Journal / DOI" for link in item["links"]):
-            item["links"].insert(0, {"label": "Journal / DOI", "url": f"https://doi.org/{item['doi']}"})
+        if item["doi"] and not any(link.get("label") == "DOI" for link in item["links"]):
+            item["links"].insert(0, {"label": "DOI", "url": f"https://doi.org/{item['doi']}"})
         add_unique_link(item["links"], "Scholar", scholar_url(item.get("title", "")))
 
         openalex = openalex_record(item.get("doi", ""), item.get("title", ""))
@@ -478,9 +540,11 @@ def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
             add_unique_link(item["links"], "OpenAlex", openalex["openAlexUrl"])
         if not item.get("keywords") and openalex.get("openAlexKeywords"):
             item["keywords"] = openalex["openAlexKeywords"]
+    now = datetime.now(timezone.utc).astimezone()
     public_items = [
         item for item in items
         if item.get("type") != "manuscript"
+        and is_recent_preprint(item, now)
         and any((link.get("url") or "").startswith("http") for link in item.get("links", []))
     ]
     return sorted(public_items, key=lambda item: (-int(item.get("year") or 0), item.get("title", "")))

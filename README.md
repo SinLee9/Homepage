@@ -18,7 +18,7 @@ It supports:
 The automated updater uses:
 
 - ORCID: `0000-0002-7947-9004`
-- DBLP: `Zhen Li 0076`, resolved as `https://dblp.org/pid/74/2397-76.html`
+- DBLP: `Zhen Li_0076`, resolved as `https://dblp.org/pid/74/2397-76.html`
 - Google Scholar profile: `https://scholar.google.com/citations?user=4eH9QNMAAAAJ&hl=zh-CN&oi=ao`
 - Crossref DOI metadata
 - OpenAlex citation counts
@@ -39,38 +39,6 @@ Upload the contents of this folder to a GitHub repository. Then:
 5. The workflow `.github/workflows/pages.yml` will publish the site.
 
 The workflow `.github/workflows/update-publications.yml` runs every Monday at `00:00 UTC`, which is `08:00` in China, and can also be started manually from the Actions tab.
-
-## Preview Locally
-
-```powershell
-cd "C:\Users\lizhe\Dropbox\迁移\简历相关\学术主页"
-powershell -ExecutionPolicy Bypass -File tools\serve.ps1 -Port 8010
-```
-
-Open:
-
-```text
-http://127.0.0.1:8010/
-```
-
-Chinese view:
-
-```text
-http://127.0.0.1:8010/?lang=zh
-```
-
-Dynamic CV:
-
-```text
-http://127.0.0.1:8010/cv.html?lang=en
-http://127.0.0.1:8010/cv.html?lang=zh
-```
-
-English view:
-
-```text
-http://127.0.0.1:8010/?lang=en
-```
 
 ## Manual Update
 

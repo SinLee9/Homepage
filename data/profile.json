@@ -1,0 +1,92 @@
+{
+  "name": "Zhen Li",
+  "title": "Ph.D. Candidate in Mathematics",
+  "summary": "School of Mathematics, Southwest Jiaotong University",
+  "location": "Chengdu, China",
+  "email": "lz-math@my.swjtu.edu.cn",
+  "updated": "2026-06-09",
+  "affiliation": {
+    "short": "Southwest Jiaotong University",
+    "full": "School of Mathematics, Southwest Jiaotong University"
+  },
+  "photo": {
+    "src": "assets/img/profile.jpg",
+    "alt": "Portrait of Zhen Li"
+  },
+  "externalProfiles": [
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/74/2397-76.html"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=4eH9QNMAAAAJ&hl=zh-CN&oi=ao"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-7947-9004"
+    }
+  ],
+  "links": [
+    {
+      "label": "CV",
+      "url": "cv.html?lang=en"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:lz-math@my.swjtu.edu.cn"
+    },
+    {
+      "label": "Publications",
+      "url": "#publications"
+    }
+  ],
+  "sectionHeadings": {
+    "research": "Research",
+    "publications": "Publications",
+    "projects": "Research Projects",
+    "education": "Academic Qualifications",
+    "contact": "Contact"
+  },
+  "researchAreas": [
+    {
+      "title": "Error-Correcting Codes",
+      "description": "Coding theory and constructions for reliable storage and communication."
+    },
+    {
+      "title": "Deletion/Insertion Codes",
+      "description": "Synchronization-error correction, segmented channels, and edit-distance models."
+    },
+    {
+      "title": "Finite Fields",
+      "description": "Finite-field methods for discrete structures and algebraic coding."
+    },
+    {
+      "title": "Cryptographic Functions",
+      "description": "Power mappings, differential spectra, Walsh transforms, and related cryptographic properties."
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "years": "2024/10 - 2026/10",
+      "degree": "Visiting Ph.D. Student",
+      "school": "Science, Mathematics and Technology Cluster, Singapore University of Technology and Design"
+    },
+    {
+      "years": "2022 - Present",
+      "degree": "Ph.D. Candidate in Mathematics",
+      "school": "School of Mathematics, Southwest Jiaotong University"
+    },
+    {
+      "years": "2019 - 2022",
+      "degree": "M.Sc. in Mathematics",
+      "school": "School of Mathematics, Southwest Jiaotong University"
+    },
+    {
+      "years": "2013 - 2017",
+      "degree": "B.Sc.",
+      "school": "School of Mathematics and Information, China West Normal University"
+    }
+  ]
+}

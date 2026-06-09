@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "updated": "2026-06-09",
+    "generatedAt": "2026-06-09T00:00:00+08:00",
+    "sources": {
+      "dblp": "https://dblp.org/pid/74/2397-76.html",
+      "googleScholar": "https://scholar.google.com/citations?user=4eH9QNMAAAAJ&hl=zh-CN&oi=ao",
+      "crossref": "https://api.crossref.org/works",
+      "openalex": "https://openalex.org/"
+    },
+    "scholarMetrics": {
+      "citations": 48,
+      "hIndex": 5,
+      "i10Index": 2
+    },
+    "citationsByYear": [
+      { "year": 2022, "count": 7 },
+      { "year": 2023, "count": 6 },
+      { "year": 2024, "count": 11 },
+      { "year": 2025, "count": 17 },
+      { "year": 2026, "count": 7 }
+    ]
+  },
+  "items": [
+    {
+      "id": "marker-codeword-marker",
+      "year": 2025,
+      "title": "Marker+Codeword+Marker: A Coding Structure for Segmented Single-Insdel/-Edit Channels",
+      "authors": ["Zhen Li", "Xuan He", "Xiaohu Tang"],
+      "venue": "IEEE Transactions on Communications",
+      "venueDetail": "73(12), 13186-13198",
+      "venueGroup": "Journal Articles",
+      "type": "journal",
+      "selected": true,
+      "keywords": ["segmented channel", "single edit", "VT code"],
+      "doi": "10.1109/tcomm.2025.3622957",
+      "citationCount": 2,
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.1109/tcomm.2025.3622957" },
+        { "label": "DBLP", "url": "https://dblp.org/rec/journals/tcom/LiHT25" },
+        { "label": "Scholar", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4eH9QNMAAAAJ&citation_for_view=4eH9QNMAAAAJ:ufrVoPGSRksC" }
+      ],
+      "sources": ["DBLP", "Google Scholar", "Crossref", "Manual"]
+    },
+    {
+      "id": "detecting-deletions-insertions-binary-segmented-channels",
+      "year": 2024,
+      "title": "Detecting Deletions and Insertions for Binary Segmented Channels",
+      "authors": ["Jinyi Li", "Zhen Li", "Xuan He"],
+      "venue": "2024 10th International Conference on Computer and Communications (ICCC)",
+      "venueDetail": "2388-2392",
+      "venueGroup": "Conference Papers",
+      "type": "conference",
+      "selected": true,
+      "keywords": ["segmented channel", "insertion detection", "deletion detection"],
+      "doi": "10.1109/ICCC62609.2024.10942121",
+      "citationCount": 1,
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.1109/ICCC62609.2024.10942121" },
+        { "label": "Scholar", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4eH9QNMAAAAJ&citation_for_view=4eH9QNMAAAAJ:WF5omc3nYNoC" },
+        { "label": "Search", "url": "https://scholar.google.com/scholar?q=Detecting+Deletions+and+Insertions+for+Binary+Segmented+Channels" }
+      ],
+      "sources": ["Google Scholar", "Manual"]
+    },
+    {
+      "id": "differential-spectra-niho-exponents",
+      "year": 2023,
+      "title": "Differential Spectra of a Class of Power Permutations with Niho Exponents",
+      "authors": ["Zhen Li", "Haode Yan"],
+      "venue": "Advances in Mathematics of Communications",
+      "venueDetail": "17(6), 1468-1475",
+      "venueGroup": "Journal Articles",
+      "type": "journal",
+      "selected": false,
+      "keywords": ["finite fields", "Niho exponents", "differential spectra"],
+      "doi": "10.3934/amc.2021060",
+      "citationCount": 5,
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.3934/amc.2021060" },
+        { "label": "Scholar", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4eH9QNMAAAAJ&citation_for_view=4eH9QNMAAAAJ:qjMakFHDy7sC" }
+      ],
+      "sources": ["Google Scholar", "Crossref", "ORCID"]
+    },
+    {
+      "id": "aperiodic-periodic-complementary-sequence-pairs-quaternions",
+      "year": 2023,
+      "title": "Aperiodic/Periodic Complementary Sequence Pairs over Quaternions",
+      "authors": ["Zhen Li", "Cuiling Fan", "Wei Su", "Yanfeng Qi"],
+      "venue": "Advances in Mathematics of Communications",
+      "venueDetail": "17(6), 1493-1506",
+      "venueGroup": "Journal Articles",
+      "type": "journal",
+      "selected": false,
+      "keywords": ["sequence design", "quaternions", "complementary pairs"],
+      "doi": "10.3934/amc.2021063",
+      "citationCount": 1,
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.3934/amc.2021063" },
+        { "label": "Scholar", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4eH9QNMAAAAJ&citation_for_view=4eH9QNMAAAAJ:zYLM7Y9cAGgC" }
+      ],
+      "sources": ["Google Scholar", "Crossref", "ORCID"]
+    },
+    {
+      "id": "note-differential-spectrum-niho",
+      "year": 2022,
+      "title": "A Note on the Differential Spectrum of a Class of Power Mappings with Niho Exponent",
+      "authors": ["Haode Yan", "Zhen Li"],
+      "venue": "Cryptography and Communications",
+      "venueDetail": "14(5), 1081-1089",
+      "venueGroup": "Journal Articles",
+      "type": "journal",
+      "selected": false,
+      "keywords": ["Niho exponent", "differential spectrum", "cryptography"],
+      "doi": "10.1007/s12095-022-00577-4",
+      "citationCount": 16,
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.1007/s12095-022-00577-4" },
+        { "label": "Scholar", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4eH9QNMAAAAJ&citation_for_view=4eH9QNMAAAAJ:2osOgNQ5qMEC" }
+      ],
+      "sources": ["Google Scholar", "Crossref", "ORCID"]
+    },
+    {
+      "id": "two-classes-power-mappings-boomerang-uniformity-2",
+      "year": 2022,
+      "title": "Two Classes of Power Mappings with Boomerang Uniformity 2",
+      "authors": ["Haode Yan", "Zhen Li", "Zhitian Song", "Rongquan Feng"],
+      "venue": "Advances in Mathematics of Communications",
+      "venueDetail": "16(4), 1111-1120",
+      "venueGroup": "Journal Articles",
+      "type": "journal",
+      "selected": false,
+      "keywords": ["power mappings", "boomerang uniformity", "finite fields"],
+      "doi": "10.3934/amc.2022046",
+      "citationCount": 10,
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.3934/amc.2022046" },
+        { "label": "DBLP", "url": "https://dblp.org/rec/journals/amco/YanLSF22" },
+        { "label": "Scholar", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4eH9QNMAAAAJ&citation_for_view=4eH9QNMAAAAJ:u5HHmVD_uO8C" }
+      ],
+      "sources": ["Google Scholar", "DBLP", "Manual"]
+    },
+    {
+      "id": "boomerang-spectrum-power-functions",
+      "year": 2022,
+      "title": "Boomerang Spectrum of a Class of Power Functions",
+      "authors": ["Haode Yan", "Ziying Zhang", "Zhen Li"],
+      "venue": "2022 10th International Workshop on Signal Design and Its Applications in Communications (IWSDA)",
+      "venueGroup": "Conference Papers",
+      "type": "conference",
+      "selected": false,
+      "keywords": ["power functions", "boomerang spectrum", "cryptographic functions"],
+      "doi": "10.1109/IWSDA50346.2022.9870578",
+      "citationCount": 7,
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.1109/IWSDA50346.2022.9870578" },
+        { "label": "DBLP", "url": "https://dblp.org/rec/conf/iwsda/YanZL22" },
+        { "label": "Scholar", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4eH9QNMAAAAJ&citation_for_view=4eH9QNMAAAAJ:u-x6o8ySG0sC" },
+        { "label": "Search", "url": "https://scholar.google.com/scholar?q=Boomerang+Spectrum+of+a+Class+of+Power+Functions" }
+      ],
+      "sources": ["Google Scholar", "DBLP", "Manual"]
+    },
+    {
+      "id": "four-valued-walsh-transform-cyclic-codes",
+      "year": 2022,
+      "title": "A Class of Power Functions with Four-Valued Walsh Transform and Related Cyclic Codes",
+      "authors": ["Zhen Li", "Haode Yan", "Dongchun Han"],
+      "venue": "Finite Fields and Their Applications",
+      "venueDetail": "83, Article 102078",
+      "venueGroup": "Journal Articles",
+      "type": "journal",
+      "selected": false,
+      "keywords": ["Walsh transform", "power functions", "cyclic codes"],
+      "doi": "10.1016/j.ffa.2022.102078",
+      "citationCount": 5,
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.1016/j.ffa.2022.102078" },
+        { "label": "Scholar", "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4eH9QNMAAAAJ&citation_for_view=4eH9QNMAAAAJ:UeHWp8X0CEIC" }
+      ],
+      "sources": ["Google Scholar", "Crossref"]
+    }
+  ]
+}

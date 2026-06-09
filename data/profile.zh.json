@@ -1,0 +1,102 @@
+{
+  "name": "黎桢",
+  "title": "数学专业博士研究生",
+  "summary": "现为西南交通大学数学学院博士研究生，主要研究纠错码与同步错误纠正问题，关注插入/删除信道、局部编辑错误、突发编辑错误、分段信道以及 DNA 数据存储中的编码问题。研究目标是在低冗余、结构清晰与可高效编译码之间建立可验证的编码构造。",
+  "location": "中国成都",
+  "email": "lz-math@my.swjtu.edu.cn",
+  "updated": "2026-06-09",
+  "affiliation": {
+    "short": "西南交通大学",
+    "full": "西南交通大学数学学院"
+  },
+  "photo": {
+    "src": "assets/img/profile.jpg",
+    "alt": "黎桢头像"
+  },
+  "externalProfiles": [
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-7947-9004"
+    },
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/74/2397-76.html"
+    }
+  ],
+  "links": [
+    {
+      "label": "下载简历",
+      "url": "assets/cv.pdf"
+    },
+    {
+      "label": "邮件联系",
+      "url": "mailto:lz-math@my.swjtu.edu.cn"
+    },
+    {
+      "label": "论文列表",
+      "url": "#publications"
+    }
+  ],
+  "sectionHeadings": {
+    "research": "面向同步错误与 DNA 存储的编码理论",
+    "publications": "近期与代表性论文",
+    "projects": "研究项目",
+    "education": "教育背景",
+    "contact": "欢迎交流研究问题与合作机会"
+  },
+  "researchInterests": [
+    {
+      "title": "同步错误纠正码",
+      "description": "研究插入、删除、突发错误、局部编辑错误与子串编辑错误的低冗余编码，兼顾存在性界、显式构造与高效编译码。"
+    },
+    {
+      "title": "DNA 数据存储与合成编码",
+      "description": "面向并行 DNA 合成、合成重复、合成缺陷、合成约束及结构化生化错误模型，设计可靠的数据存储编码方案。"
+    },
+    {
+      "title": "分段信道与标记编码结构",
+      "description": "围绕分段单插删/单编辑信道，研究 marker+codeword+marker 结构、VT 型约束以及线性时间编译码方法。"
+    },
+    {
+      "title": "有限域方法与序列设计",
+      "description": "早期工作涉及有限域上幂函数、Walsh 变换、差分谱、boomerang uniformity、互补序列及相关循环码。"
+    }
+  ],
+  "projects": [
+    {
+      "title": "DNA 合成重复错误编码",
+      "period": "2025 - 至今",
+      "description": "研究大规模并行 DNA 合成中的同步重复错误，分别处理已知重复位置与未知重复位置下的译码机制和低冗余构造。"
+    },
+    {
+      "title": "分段编辑错误纠正码",
+      "period": "2023 - 至今",
+      "description": "设计用于分段单插删/单编辑信道的标记型编码结构，在低冗余条件下实现线性时间编码与译码。"
+    },
+    {
+      "title": "基于局部混淆图的局部编辑码",
+      "period": "2026 - 至今",
+      "description": "研究局部混淆图和窗口提升方法，用于突发删除、局部删除及有界子串编辑错误的低冗余编码。"
+    }
+  ],
+  "education": [
+    {
+      "years": "2022 - 至今",
+      "degree": "数学专业博士研究生",
+      "school": "西南交通大学数学学院",
+      "description": "研究方向为编码理论、同步错误纠正、分段信道以及 DNA 数据存储编码。"
+    },
+    {
+      "years": "2019 - 2022",
+      "degree": "理学硕士",
+      "school": "西南交通大学数学学院",
+      "description": "主要研究有限域、密码函数、序列设计及相关编码理论问题。"
+    },
+    {
+      "years": "2013 - 2017",
+      "degree": "理学学士",
+      "school": "西华师范大学数学与信息学院",
+      "description": "本科阶段接受数学与信息科学方面的系统训练。"
+    }
+  ]
+}

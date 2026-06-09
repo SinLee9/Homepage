@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "title": "Marker+Codeword+Marker: A Coding Structure for Segmented Single-Insdel/-Edit Channels",
+      "doi": "10.1109/tcomm.2025.3622957",
+      "selected": true,
+      "keywords": ["segmented channel", "single edit", "VT code"],
+      "links": [
+        { "label": "DOI", "url": "https://doi.org/10.1109/tcomm.2025.3622957" },
+        { "label": "DBLP", "url": "https://dblp.org/rec/journals/corr/abs-2402-04890" }
+      ]
+    },
+    {
+      "title": "Detecting Deletions and Insertions for Binary Segmented Channels",
+      "selected": true,
+      "keywords": ["segmented channel", "insertion detection", "deletion detection"]
+    },
+    {
+      "title": "Differential Spectra of a Class of Power Permutations with Niho Exponents",
+      "doi": "10.3934/amc.2021060",
+      "keywords": ["finite fields", "Niho exponents", "differential spectra"]
+    },
+    {
+      "title": "Aperiodic/Periodic Complementary Sequence Pairs over Quaternions",
+      "doi": "10.3934/amc.2021063",
+      "keywords": ["sequence design", "quaternions", "complementary pairs"]
+    },
+    {
+      "title": "A Note on the Differential Spectrum of a Class of Power Mappings with Niho Exponent",
+      "doi": "10.1007/s12095-022-00577-4",
+      "keywords": ["Niho exponent", "differential spectrum", "cryptography"]
+    },
+    {
+      "title": "Two Classes of Power Mappings with Boomerang Uniformity 2",
+      "keywords": ["power mappings", "boomerang uniformity", "finite fields"],
+      "links": [
+        { "label": "DBLP", "url": "https://doi.org/10.3934/amc.2022046" }
+      ]
+    },
+    {
+      "title": "Boomerang Spectrum of a Class of Power Functions",
+      "keywords": ["power functions", "boomerang spectrum", "cryptographic functions"]
+    },
+    {
+      "title": "A Class of Power Functions with Four-Valued Walsh Transform and Related Cyclic Codes",
+      "doi": "10.1016/j.ffa.2022.102078",
+      "keywords": ["Walsh transform", "power functions", "cyclic codes"]
+    }
+  ]
+}

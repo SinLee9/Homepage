@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic homepage of Zhen Li, Ph.D. candidate in coding theory and error-correcting codes.">
+    <title>Zhen Li | Academic Homepage</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Zhen Li homepage">
+        <span class="brand-mark">ZL</span>
+        <span id="brand-name">Zhen Li</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#education" data-i18n="navEducation">Education</a>
+        <a href="#research" data-i18n="navResearch">Research</a>
+        <a href="#publications" data-i18n="navPublications">Publications</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="language-toggle" aria-label="Language">
+        <button class="is-active" type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="zh">中文</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="profile-name">
+        <div class="hero-copy">
+          <p class="eyebrow" id="profile-affiliation">School of Mathematics</p>
+          <h1 id="profile-name">Zhen Li</h1>
+          <p class="hero-title" id="profile-title">Ph.D. Candidate in Mathematics</p>
+          <p class="hero-summary" id="profile-summary"></p>
+          <div class="hero-actions" id="profile-links" aria-label="Profile links"></div>
+        </div>
+        <aside class="profile-panel" aria-label="Profile snapshot">
+          <div class="portrait-wrap">
+            <img id="profile-photo" src="assets/img/profile.jpg" alt="Portrait of Zhen Li">
+          </div>
+          <dl class="quick-facts" id="quick-facts"></dl>
+        </aside>
+      </section>
+
+      <section class="metric-band" aria-label="Academic metrics">
+        <div>
+          <span class="metric-value" id="metric-publications">0</span>
+          <span class="metric-label" data-i18n="metricPublications">Publications and manuscripts</span>
+        </div>
+        <div>
+          <span class="metric-value" id="metric-citations">--</span>
+          <span class="metric-label" data-i18n="metricCitations">Citations</span>
+        </div>
+        <div>
+          <span class="metric-value" id="metric-hindex">--</span>
+          <span class="metric-label" data-i18n="metricHindex">h-index</span>
+        </div>
+        <div>
+          <span class="metric-value" id="metric-i10">--</span>
+          <span class="metric-label" data-i18n="metricI10">i10-index</span>
+        </div>
+      </section>
+
+      <section class="section-shell split-section compact-section" id="education" aria-labelledby="education-heading">
+        <div>
+          <p class="section-kicker" data-i18n="educationKicker">Background</p>
+          <h2 id="education-heading"></h2>
+        </div>
+        <ol class="timeline" id="education-list"></ol>
+      </section>
+
+      <section class="section-shell split-section" id="research" aria-labelledby="research-heading">
+        <div>
+          <p class="section-kicker" data-i18n="researchKicker">Research</p>
+          <h2 id="research-heading"></h2>
+        </div>
+        <div class="keyword-panel">
+          <div class="keyword-list" id="keyword-list"></div>
+        </div>
+      </section>
+
+      <section class="section-shell publications-section" id="publications" aria-labelledby="publications-heading">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker" data-i18n="publicationsKicker">Publications</p>
+            <h2 id="publications-heading"></h2>
+          </div>
+          <div class="updated-note" id="updated-note"></div>
+        </div>
+
+        <div class="publication-tools">
+          <label class="search-field">
+            <span data-i18n="searchLabel">Search</span>
+            <input id="publication-search" type="search" placeholder="Title, author, keyword">
+          </label>
+          <div class="segmented-control" aria-label="Publication filter">
+            <button class="is-active" data-filter="all" data-i18n="filterAll" type="button">All</button>
+            <button data-filter="selected" data-i18n="filterSelected" type="button">Selected</button>
+            <button data-filter="journal" data-i18n="filterJournal" type="button">Journal</button>
+            <button data-filter="conference" data-i18n="filterConference" type="button">Conference</button>
+            <button data-filter="preprint" data-i18n="filterPreprint" type="button">Preprint</button>
+            <button data-filter="manuscript" data-i18n="filterManuscript" type="button">Manuscript</button>
+          </div>
+        </div>
+
+        <div class="publication-list" id="publication-list" aria-live="polite"></div>
+      </section>
+
+      <section class="section-shell split-section" id="projects" aria-labelledby="projects-heading" hidden>
+        <div>
+          <p class="section-kicker" data-i18n="projectsKicker">Projects</p>
+          <h2 id="projects-heading"></h2>
+        </div>
+        <div class="project-grid" id="project-list"></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+        <div class="section-shell contact-inner">
+          <div>
+            <p class="section-kicker" data-i18n="contactKicker">Contact</p>
+            <h2 id="contact-heading"></h2>
+          </div>
+          <div class="contact-links" id="contact-links"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span id="footer-name">Zhen Li</span>
+      <span id="footer-year"></span>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

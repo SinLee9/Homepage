@@ -1,0 +1,74 @@
+{
+  "name": "黎桢",
+  "title": "数学专业博士研究生",
+  "summary": "西南交通大学数学学院博士研究生，研究方向为同步错误纠正码、分段信道编码与 DNA 数据存储编码。",
+  "location": "中国成都",
+  "email": "lz-math@my.swjtu.edu.cn",
+  "updated": "2026-06-09",
+  "affiliation": {
+    "short": "西南交通大学",
+    "full": "西南交通大学数学学院"
+  },
+  "photo": {
+    "src": "assets/img/profile.jpg",
+    "alt": "黎桢头像"
+  },
+  "externalProfiles": [
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/74/2397-76.html"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/scholar?q=%22Zhen+Li%22+%22Southwest+Jiaotong+University%22+coding+theory"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-7947-9004"
+    }
+  ],
+  "links": [
+    {
+      "label": "CV",
+      "url": "cv.html?lang=zh"
+    },
+    {
+      "label": "邮件",
+      "url": "mailto:lz-math@my.swjtu.edu.cn"
+    },
+    {
+      "label": "论文",
+      "url": "#publications"
+    }
+  ],
+  "sectionHeadings": {
+    "research": "关键词热度",
+    "publications": "学术论文",
+    "projects": "研究项目",
+    "education": "教育背景",
+    "contact": "联系方式"
+  },
+  "projects": [],
+  "education": [
+    {
+      "years": "2024/10 - 2026/10",
+      "degree": "访问博士生",
+      "school": "新加坡科技设计大学 Science, Mathematics and Technology Cluster"
+    },
+    {
+      "years": "2022 - 至今",
+      "degree": "数学专业博士研究生",
+      "school": "西南交通大学数学学院"
+    },
+    {
+      "years": "2019 - 2022",
+      "degree": "理学硕士",
+      "school": "西南交通大学数学学院"
+    },
+    {
+      "years": "2013 - 2017",
+      "degree": "理学学士",
+      "school": "西华师范大学数学与信息学院"
+    }
+  ]
+}

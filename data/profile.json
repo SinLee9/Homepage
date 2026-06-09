@@ -1,0 +1,74 @@
+{
+  "name": "Zhen Li",
+  "title": "Ph.D. Candidate in Mathematics",
+  "summary": "Ph.D. candidate at Southwest Jiaotong University working on coding theory for synchronization errors and DNA data storage.",
+  "location": "Chengdu, China",
+  "email": "lz-math@my.swjtu.edu.cn",
+  "updated": "2026-06-09",
+  "affiliation": {
+    "short": "Southwest Jiaotong University",
+    "full": "School of Mathematics, Southwest Jiaotong University"
+  },
+  "photo": {
+    "src": "assets/img/profile.jpg",
+    "alt": "Portrait of Zhen Li"
+  },
+  "externalProfiles": [
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/74/2397-76.html"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/scholar?q=%22Zhen+Li%22+%22Southwest+Jiaotong+University%22+coding+theory"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-7947-9004"
+    }
+  ],
+  "links": [
+    {
+      "label": "CV",
+      "url": "cv.html?lang=en"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:lz-math@my.swjtu.edu.cn"
+    },
+    {
+      "label": "Publications",
+      "url": "#publications"
+    }
+  ],
+  "sectionHeadings": {
+    "research": "Keyword Trends",
+    "publications": "Publications",
+    "projects": "Research Projects",
+    "education": "Academic Qualifications",
+    "contact": "Contact"
+  },
+  "projects": [],
+  "education": [
+    {
+      "years": "2024/10 - 2026/10",
+      "degree": "Visiting Ph.D. Student",
+      "school": "Science, Mathematics and Technology Cluster, Singapore University of Technology and Design"
+    },
+    {
+      "years": "2022 - Present",
+      "degree": "Ph.D. Candidate in Mathematics",
+      "school": "School of Mathematics, Southwest Jiaotong University"
+    },
+    {
+      "years": "2019 - 2022",
+      "degree": "M.Sc. in Mathematics",
+      "school": "School of Mathematics, Southwest Jiaotong University"
+    },
+    {
+      "years": "2013 - 2017",
+      "degree": "B.Sc.",
+      "school": "School of Mathematics and Information, China West Normal University"
+    }
+  ]
+}

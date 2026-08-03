@@ -1,88 +1,16 @@
 {
   "meta": {
-    "updated": "2026-07-27",
-    "generatedAt": "2026-07-27T03:22:40+00:00",
+    "updated": "2026-08-03",
+    "generatedAt": "2026-08-03T02:59:33+00:00",
     "sources": {
       "orcid": "https://orcid.org/0000-0002-7947-9004",
       "dblp": "https://dblp.org/pid/74/2397-76.html",
       "crossref": "https://api.crossref.org/works",
       "openalex": "https://openalex.org/",
       "googleScholar": "https://scholar.google.com/citations?user=4eH9QNMAAAAJ&hl=zh-CN&oi=ao"
-    },
-    "scholarMetrics": {
-      "citations": 49,
-      "hIndex": 5,
-      "i10Index": 2
-    },
-    "citationsByYear": [
-      {
-        "year": 2022,
-        "count": 8
-      },
-      {
-        "year": 2023,
-        "count": 5
-      },
-      {
-        "year": 2024,
-        "count": 11
-      },
-      {
-        "year": 2025,
-        "count": 17
-      },
-      {
-        "year": 2026,
-        "count": 8
-      }
-    ]
+    }
   },
   "items": [
-    {
-      "id": "marker-plus-codeword-plus-marker-a-coding-structure-for-segmented-single-insdel-edit-channels",
-      "title": "Marker+ Codeword+ Marker: A Coding Structure for Segmented Single-Insdel/-Edit Channels",
-      "authors": [
-        "Z Li",
-        "X He",
-        "X Tang"
-      ],
-      "year": 2025,
-      "publicationYear": 2025,
-      "venue": "IEEE Transactions on Communications",
-      "venueGroup": "Journal Articles",
-      "status": "Indexed by Google Scholar",
-      "type": "journal",
-      "selected": false,
-      "keywords": [
-        "Indel",
-        "Code word",
-        "Computer science",
-        "Coding (social sciences)",
-        "Computational biology",
-        "Genetics"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "",
-      "citationCount": 0,
-      "links": [
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:ufrVoPGSRksC"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=Marker%2B+Codeword%2B+Marker%3A+A+Coding+Structure+for+Segmented+Single-Insdel%2F-Edit+Channels"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4391673352"
-        }
-      ],
-      "sources": [
-        "Google Scholar"
-      ]
-    },
     {
       "id": "marker-plus-codeword-plus-marker-a-coding-structure-for-segmented-single-insdel-edit-channels",
       "title": "Marker+Codeword+Marker: A Coding Structure for Segmented Single-Insdel/-Edit Channels",
@@ -115,10 +43,6 @@
           "url": "https://orcid.org/0000-0002-7947-9004"
         },
         {
-          "label": "DOI",
-          "url": "https://doi.org/10.1109/TCOMM.2025.3622957"
-        },
-        {
           "label": "DBLP",
           "url": "https://dblp.org/rec/journals/tcom/LiHT25"
         },
@@ -132,59 +56,12 @@
         }
       ],
       "sources": [
-        "DBLP",
         "Manual",
         "ORCID"
       ],
-      "publicationYear": 2025,
-      "publicationMonth": "December",
       "venueDetail": "73(12), 13186-13198",
       "jcrQuartile": "JCR Q1",
       "citationCount": 1
-    },
-    {
-      "id": "detecting-deletions-and-insertions-for-binary-segmented-channels",
-      "title": "Detecting deletions and insertions for binary segmented channels",
-      "authors": [
-        "J Li",
-        "Z Li",
-        "X He"
-      ],
-      "year": 2024,
-      "publicationYear": 2024,
-      "venue": "2024 10th International Conference on Computer and Communications (ICCC …",
-      "venueGroup": "Conference Papers",
-      "status": "Indexed by Google Scholar",
-      "type": "conference",
-      "selected": false,
-      "keywords": [
-        "Computer science",
-        "Binary number",
-        "Algorithm",
-        "Mathematics",
-        "Arithmetic"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "",
-      "citationCount": 1,
-      "links": [
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:WF5omc3nYNoC"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=Detecting+deletions+and+insertions+for+binary+segmented+channels"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4409097474"
-        }
-      ],
-      "sources": [
-        "Google Scholar"
-      ]
     },
     {
       "id": "aperiodic-periodic-complementary-sequence-pairs-over-quaternions",
@@ -219,10 +96,6 @@
           "url": "https://orcid.org/0000-0002-7947-9004"
         },
         {
-          "label": "DBLP",
-          "url": "https://dblp.org/rec/journals/amco/LiFSQ23"
-        },
-        {
           "label": "Scholar",
           "url": "https://scholar.google.com/scholar?q=Aperiodic%2FPeriodic+Complementary+Sequence+Pairs+over+Quaternions"
         },
@@ -232,59 +105,11 @@
         }
       ],
       "sources": [
-        "DBLP",
         "Manual",
         "ORCID"
       ],
-      "publicationYear": 2023,
       "jcrQuartile": "JCR Q3",
       "citationCount": 1
-    },
-    {
-      "id": "aperiodic-periodic-complementary-sequence-pairs-over-quaternions",
-      "title": "Aperiodic/periodic complementary sequence pairs over quaternions",
-      "authors": [
-        "Z Li",
-        "C Fan",
-        "W Su",
-        "Y Qi"
-      ],
-      "year": 2023,
-      "publicationYear": 2023,
-      "venue": "Advances in Mathematics of Communications 17 (6), 1493-1506",
-      "venueGroup": "Journal Articles",
-      "status": "Indexed by Google Scholar",
-      "type": "journal",
-      "selected": false,
-      "keywords": [
-        "Mathematics",
-        "Aperiodic graph",
-        "Sequence (biology)",
-        "Combinatorics",
-        "Generalization",
-        "Zero (linguistics)"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "",
-      "citationCount": 1,
-      "links": [
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:zYLM7Y9cAGgC"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=Aperiodic%2Fperiodic+complementary+sequence+pairs+over+quaternions"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4206775566"
-        }
-      ],
-      "sources": [
-        "Google Scholar"
-      ]
     },
     {
       "id": "differential-spectra-of-a-class-of-power-permutations-with-niho-exponents",
@@ -317,10 +142,6 @@
           "url": "https://orcid.org/0000-0002-7947-9004"
         },
         {
-          "label": "DBLP",
-          "url": "https://dblp.org/rec/journals/amco/LiY23"
-        },
-        {
           "label": "Scholar",
           "url": "https://scholar.google.com/scholar?q=Differential+Spectra+of+a+Class+of+Power+Permutations+with+Niho+Exponents"
         },
@@ -330,109 +151,10 @@
         }
       ],
       "sources": [
-        "DBLP",
         "Manual",
         "ORCID"
       ],
-      "publicationYear": 2023,
       "jcrQuartile": "JCR Q3",
-      "citationCount": 3
-    },
-    {
-      "id": "differential-spectra-of-a-class-of-power-permutations-with-niho-exponents",
-      "title": "Differential spectra of a class of power permutations with Niho exponents",
-      "authors": [
-        "Z Li",
-        "H Yan"
-      ],
-      "year": 2023,
-      "publicationYear": 2023,
-      "venue": "Advances in Mathematics of Communications 17 (6), 1468-1475",
-      "venueGroup": "Journal Articles",
-      "status": "Indexed by Google Scholar",
-      "type": "journal",
-      "selected": false,
-      "keywords": [
-        "Mathematics",
-        "Omega",
-        "Combinatorics",
-        "Monomial",
-        "Exponent",
-        "Permutation (music)"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "",
-      "citationCount": 3,
-      "links": [
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:qjMakFHDy7sC"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=Differential+spectra+of+a+class+of+power+permutations+with+Niho+exponents"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4206683232"
-        }
-      ],
-      "sources": [
-        "Google Scholar"
-      ]
-    },
-    {
-      "id": "a-class-of-power-functions-with-four-valued-walsh-transform-and-related-cyclic-codes",
-      "title": "A Class of Power Functions with Four-Valued Walsh Transform and Related Cyclic Codes",
-      "authors": [
-        "Zhen Li",
-        "Haode Yan",
-        "Dongchun Han"
-      ],
-      "year": 2022,
-      "publicationYear": 2022,
-      "publicationMonth": null,
-      "venue": "Finite Fields Their Appl.",
-      "venueGroup": "Journal Articles",
-      "status": "Indexed by DBLP",
-      "type": "journal",
-      "selected": false,
-      "keywords": [
-        "Walsh transform",
-        "power functions",
-        "cyclic codes"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "10.1016/j.ffa.2022.102078",
-      "links": [
-        {
-          "label": "DOI",
-          "url": "https://doi.org/10.1016/j.ffa.2022.102078"
-        },
-        {
-          "label": "External",
-          "url": "https://www.wikidata.org/entity/Q113874189"
-        },
-        {
-          "label": "DBLP",
-          "url": "https://dblp.org/rec/journals/ffa/LiYH22"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=A+Class+of+Power+Functions+with+Four-Valued+Walsh+Transform+and+Related+Cyclic+Codes"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4283014242"
-        }
-      ],
-      "sources": [
-        "DBLP",
-        "Manual"
-      ],
-      "jcrQuartile": "JCR Q1/Q2",
       "citationCount": 3
     },
     {
@@ -466,14 +188,6 @@
           "url": "https://orcid.org/0000-0002-7947-9004"
         },
         {
-          "label": "External",
-          "url": "https://www.wikidata.org/entity/Q114849128"
-        },
-        {
-          "label": "DBLP",
-          "url": "https://dblp.org/rec/journals/ccds/YanL22"
-        },
-        {
           "label": "Scholar",
           "url": "https://scholar.google.com/scholar?q=A+Note+on+the+Differential+Spectrum+of+a+Class+of+Power+Mappings+with+Niho+Exponent"
         },
@@ -483,294 +197,11 @@
         }
       ],
       "sources": [
-        "DBLP",
         "Manual",
         "ORCID"
       ],
-      "publicationYear": 2022,
       "jcrQuartile": "JCR Q2",
       "citationCount": 13
-    },
-    {
-      "id": "a-class-of-power-functions-with-four-valued-walsh-transform-and-related-cyclic-codes",
-      "title": "A class of power functions with four-valued Walsh transform and related cyclic codes",
-      "authors": [
-        "Z Li",
-        "H Yan",
-        "D Han"
-      ],
-      "year": 2022,
-      "publicationYear": 2022,
-      "venue": "Finite Fields and Their Applications 83, 102078",
-      "venueGroup": "Journal Articles",
-      "status": "Indexed by Google Scholar",
-      "type": "journal",
-      "selected": false,
-      "keywords": [
-        "Mathematics",
-        "Prime power",
-        "Class (philosophy)",
-        "Complement (music)",
-        "Finite field",
-        "Prime (order theory)"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "",
-      "citationCount": 3,
-      "links": [
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:UeHWp8X0CEIC"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=A+class+of+power+functions+with+four-valued+Walsh+transform+and+related+cyclic+codes"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4283014242"
-        }
-      ],
-      "sources": [
-        "Google Scholar"
-      ]
-    },
-    {
-      "id": "a-note-on-the-differential-spectrum-of-a-class-of-power-mappings-with-niho-exponent",
-      "title": "A note on the differential spectrum of a class of power mappings with Niho exponent",
-      "authors": [
-        "H Yan",
-        "Z Li"
-      ],
-      "year": 2022,
-      "publicationYear": 2022,
-      "venue": "Cryptography and Communications 14 (5), 1081-1089",
-      "venueGroup": "Journal Articles",
-      "status": "Indexed by Google Scholar",
-      "type": "journal",
-      "selected": false,
-      "keywords": [
-        "Exponent",
-        "Omega",
-        "Prime (order theory)",
-        "Prime power",
-        "Spectrum (functional analysis)",
-        "Finite field"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "",
-      "citationCount": 13,
-      "links": [
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:2osOgNQ5qMEC"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=A+note+on+the+differential+spectrum+of+a+class+of+power+mappings+with+Niho+exponent"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4226097993"
-        }
-      ],
-      "sources": [
-        "Google Scholar"
-      ]
-    },
-    {
-      "id": "boomerang-spectrum-of-a-class-of-power-functions",
-      "title": "Boomerang Spectrum of a Class of Power Functions",
-      "authors": [
-        "Haode Yan",
-        "Ziying Zhang",
-        "Zhen Li"
-      ],
-      "year": 2022,
-      "publicationYear": 2022,
-      "publicationMonth": null,
-      "venue": "IWSDA",
-      "venueGroup": "Conference Papers",
-      "status": "Indexed by DBLP",
-      "type": "conference",
-      "selected": false,
-      "keywords": [
-        "power functions",
-        "boomerang spectrum",
-        "cryptographic functions"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "10.1109/iwsda50346.2022.9870578",
-      "links": [
-        {
-          "label": "DOI",
-          "url": "https://doi.org/10.1109/IWSDA50346.2022.9870578"
-        },
-        {
-          "label": "DBLP",
-          "url": "https://dblp.org/rec/conf/iwsda/YanZL22"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=Boomerang+Spectrum+of+a+Class+of+Power+Functions"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4294811667"
-        }
-      ],
-      "sources": [
-        "DBLP",
-        "Manual"
-      ],
-      "citationCount": 5
-    },
-    {
-      "id": "boomerang-spectrum-of-a-class-of-power-functions",
-      "title": "Boomerang spectrum of a class of power functions",
-      "authors": [
-        "H Yan",
-        "Z Zhang",
-        "Z Li"
-      ],
-      "year": 2022,
-      "publicationYear": 2022,
-      "venue": "2022 10th International Workshop on Signal Design and Its Applications in …",
-      "venueGroup": "Conference Papers",
-      "status": "Indexed by Google Scholar",
-      "type": "conference",
-      "selected": false,
-      "keywords": [
-        "Exponent",
-        "Class (philosophy)",
-        "Spectrum (functional analysis)",
-        "Property (philosophy)",
-        "Cryptography",
-        "Power (physics)"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "",
-      "citationCount": 5,
-      "links": [
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:u-x6o8ySG0sC"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=Boomerang+spectrum+of+a+class+of+power+functions"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4294811667"
-        }
-      ],
-      "sources": [
-        "Google Scholar"
-      ]
-    },
-    {
-      "id": "two-classes-of-power-mappings-with-boomerang-uniformity-2",
-      "title": "Two Classes of Power Mappings with Boomerang Uniformity 2",
-      "authors": [
-        "Haode Yan",
-        "Zhen Li",
-        "Zhitian Song",
-        "Rongquan Feng"
-      ],
-      "year": 2022,
-      "publicationYear": 2022,
-      "publicationMonth": null,
-      "venue": "Adv. Math. Commun.",
-      "venueGroup": "Journal Articles",
-      "status": "Indexed by DBLP",
-      "type": "journal",
-      "selected": false,
-      "keywords": [
-        "power mappings",
-        "boomerang uniformity",
-        "finite fields"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "10.3934/amc.2022046",
-      "links": [
-        {
-          "label": "DOI",
-          "url": "https://doi.org/10.3934/amc.2022046"
-        },
-        {
-          "label": "DBLP",
-          "url": "https://dblp.org/rec/journals/amco/YanLSF22"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=Two+Classes+of+Power+Mappings+with+Boomerang+Uniformity+2"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4226428325"
-        }
-      ],
-      "sources": [
-        "DBLP",
-        "Manual"
-      ],
-      "jcrQuartile": "JCR Q3",
-      "citationCount": 9
-    },
-    {
-      "id": "two-classes-of-power-mappings-with-boomerang-uniformity-2",
-      "title": "Two classes of power mappings with boomerang uniformity 2",
-      "authors": [
-        "H Yan",
-        "Z Li",
-        "Z Song",
-        "R Feng"
-      ],
-      "year": 2022,
-      "publicationYear": 2022,
-      "venue": "Advances in Mathematics of Communications 16 (4)",
-      "venueGroup": "Journal Articles",
-      "status": "Indexed by Google Scholar",
-      "type": "journal",
-      "selected": false,
-      "keywords": [
-        "Mathematics",
-        "Combinatorics",
-        "Algebra over a field",
-        "Discrete mathematics",
-        "Pure mathematics"
-      ],
-      "abstract": "",
-      "abstractZh": "",
-      "doi": "",
-      "citationCount": 9,
-      "links": [
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:u5HHmVD_uO8C"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=4eH9QNMAAAAJ&pagesize=100&citation_for_view=4eH9QNMAAAAJ:IjCSPb-OGe4C"
-        },
-        {
-          "label": "Scholar",
-          "url": "https://scholar.google.com/scholar?q=Two+classes+of+power+mappings+with+boomerang+uniformity+2"
-        },
-        {
-          "label": "OpenAlex",
-          "url": "https://openalex.org/W4226428325"
-        }
-      ],
-      "sources": [
-        "Google Scholar"
-      ]
     }
   ]
 }
